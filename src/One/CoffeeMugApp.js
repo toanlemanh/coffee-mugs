@@ -8,9 +8,9 @@ const CoffeeMugApp = () => {
     <div id="root">
       <div
         id="content-wrapper font-Karla"
-        className="max-w-screen-2xl text-base mx-auto px-8 bg-slate-200"
+        className="max-w-screen-2xl text-base mx-auto bg-slate-200"
       >
-        <header className="py-6 mx-10">
+        <header className="py-6 mx-auto">
           <Header />
         </header>
         {/* End header */}
