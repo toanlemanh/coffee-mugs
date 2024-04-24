@@ -2,12 +2,9 @@ function Header() {
 
   function toggleMenu () {
     const menuUl = document.getElementById('my-top-menu-ul');
-    menuUl.classList.toggle('hidden');
+     menuUl.classList.toggle('hidden');
     menuUl.classList.toggle('transition-all');
     menuUl.classList.toggle("max-lg:my-top-menu-ul-expanded")
-    
-
-    // alert(menuUl.style)
   
   }
 
@@ -26,25 +23,25 @@ function Header() {
 {/* expanded */}
       <ul id="my-top-menu-ul" className="hidden p-0 lg:basis-3/6 lg:flex lg:flex-row items-centers lg:space-x-8 uppercase text-sm font-medium list-none">
         <li className="my-top-menu-item">
-          <a>Home</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">Home</a>
         </li>
         <li className="my-top-menu-item">
-          <a>Our products</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">Our products</a>
         </li>
         <li className="my-top-menu-item">
-          <a>Blog</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">Blog</a>
         </li>
         <li className="my-top-menu-item">
-          <a>About</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">About</a>
         </li>
         <li className="my-top-menu-item">
-          <a>Contact</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">Contact</a>
         </li>
         <li className="my-top-menu-item">
-          <a>Styleguide</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">Styleguide</a>
         </li>
         <li className="my-top-menu-item">
-          <a>Explore our products</a>
+          <a href="#" className="no-underline text-black hover:text-light-coffee">Explore our products</a>
         </li>
       </ul>
 {/* Cart */}
@@ -86,7 +83,6 @@ function Header() {
           className="my-icon"
           id="my-toggle-top-menu-icon"
           onClick={toggleMenu}
-          onBlur={toggleMenu}
         >
           <path
             stroke-linecap="round"

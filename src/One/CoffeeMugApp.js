@@ -7,10 +7,10 @@ const CoffeeMugApp = () => {
   return (
     <div id="root">
       <div
-        id="content-wrapper font-Karla"
-        className="max-w-screen-2xl text-base mx-auto bg-slate-200"
+        id="content-wrapper "
+        className="max-w-screen-2xl text-base font-Karla mx-auto bg-slate-200"
       >
-        <header className="py-6 mx-auto">
+        <header className="py-6 mx-auto max-md:py-0">
           <Header />
         </header>
         {/* End header */}
