@@ -1,4 +1,4 @@
-# coffee-mugs
+
 <h1>
   This is a UI project using React and TailwindCSS to clone the UI of coffee mugs online shop. 
 </h1>
