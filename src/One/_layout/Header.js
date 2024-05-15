@@ -2,7 +2,7 @@ function Header() {
 
   function toggleMenu () {
     const menuUl = document.getElementById('my-top-menu-ul');
-     menuUl.classList.toggle('hidden');
+    menuUl.classList.toggle('hidden');
     menuUl.classList.toggle('transition-all');
     menuUl.classList.toggle("max-lg:my-top-menu-ul-expanded")
   
@@ -10,18 +10,18 @@ function Header() {
 
   
   return (
-    <nav className="flex flex-row items-center relative">
+    <nav className=" flex flex-row items-center relative lg:px-0 ">
 {/* Logo */}      
       <div
         id="logo"
-        className="basis-2/6 text-xl text-center font-semibold cursor-pointer"
+        className="p-3 basis-2/6 text-xl text-center font-semibold cursor-pointer"
       >
         <a className="no-underline text-slate-800" href={"/"}>
           CoffeeStyle.
         </a>
       </div>
 {/* expanded */}
-      <ul id="my-top-menu-ul" className="hidden p-0 lg:basis-3/6 lg:flex lg:flex-row items-centers lg:space-x-8 uppercase text-sm font-medium list-none">
+<ul id="my-top-menu-ul" className="hidden lg:flex lg:justify-between uppercase font-medium list-none  items-centers lg:space-x-0 lg:basis-3/6 text-sm ">
         <li className="my-top-menu-item">
           <a href="#" className="no-underline text-black hover:text-light-coffee">Home</a>
         </li>
@@ -45,7 +45,7 @@ function Header() {
         </li>
       </ul>
 {/* Cart */}
-      <ul className="basis-2/6 flex lg:basis-1/6 uppercase lg:justify-start justify-end text-sm list-none">
+      <ul className="basis-5/6 flex lg:basis-1/6 uppercase lg:justify-start justify-end text-sm list-none">
         <li className="font-Karla font-semibold">
           <a
             className="flex items-center group no-underline py-1 text-slate-500 hover:text-light-coffee"

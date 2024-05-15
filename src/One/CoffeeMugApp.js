@@ -3,12 +3,13 @@ import Footer from "./_layout/Footer";
 import Slider from "./components/Slider";
 import Subscription from "./components/Subscription";
 import Story from "./components/Story";
+import FeaturedMug from "./components/FeaturedMug";
 const CoffeeMugApp = () => {
   return (
     <div id="root">
       <div
         id="content-wrapper "
-        className="max-w-screen-2xl text-base font-Karla mx-auto bg-slate-200"
+        className="max-w-screen-2xl text-base font-Karla mx-auto bg-white"
       >
         <header className="py-6 mx-auto max-md:py-0">
           <Header />
@@ -21,7 +22,9 @@ const CoffeeMugApp = () => {
           <div id="story">
             <Story />
           </div>
-          <div id="featured-mugs"></div>
+          <div id="featured-mugs">
+             <FeaturedMug />
+          </div>
           <div id="more-product"></div>
           <div id="coffee-magazine"></div>
           <div id="lifestyle-stories"></div>

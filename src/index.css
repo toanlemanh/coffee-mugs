@@ -11,7 +11,7 @@
     @apply w-5 h-5 inline-block;
   }
   .my-top-menu-ul-expanded{
-    @apply absolute w-full top-10 opacity-95 bg-white transition-all duration-500 shadow-md text-center animate-slideDown;
+    @apply absolute w-full top-10 bg-white transition-all duration-500 shadow-md text-center animate-slideDown;
   }
   .my-full-story {
     @apply transition-all duration-500 text-center animate-slideDown;
