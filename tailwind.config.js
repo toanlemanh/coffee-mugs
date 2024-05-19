@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundImage: {
         'header-banner': "url('https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg')",
+        'featured-img': "url('https://assets.website-files.com/5be96251aaba7a84f6ecdf81/5be96251aaba7a512bece011_liana-mikah-698524-unsplash.jpg')",
        
       },
       colors: {
