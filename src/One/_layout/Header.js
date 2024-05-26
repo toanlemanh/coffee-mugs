@@ -14,14 +14,14 @@ function Header() {
 {/* Logo */}      
       <div
         id="logo"
-        className="p-3 basis-2/6 text-xl text-center font-semibold cursor-pointer"
+        className="p-3 lg:basis-0 basis-2/6 text-xl text-center font-semibold cursor-pointer"
       >
         <a className="no-underline text-slate-800" href={"/"}>
           CoffeeStyle.
         </a>
       </div>
 {/* expanded */}
-<ul id="my-top-menu-ul" className="hidden lg:flex lg:justify-between uppercase font-medium list-none  items-centers lg:space-x-0 lg:basis-3/6 text-sm ">
+<ul id="my-top-menu-ul" className="hidden lg:flex lg:justify-around uppercase font-medium list-none items-centers lg:space-x-0 lg:basis-5/6 text-sm ">
         <li className="my-top-menu-item">
           <a href="#" className="no-underline text-black hover:text-light-coffee">Home</a>
         </li>

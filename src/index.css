@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap") * /
-  @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -15,6 +15,9 @@
   }
   .my-full-story {
     @apply transition-all duration-500 text-center animate-slideDown;
+  }
+  .my-label-line {
+   @apply inline-block w-8 h-px bg-gray-200 my-1 mx-[3px];
   }
 }
 

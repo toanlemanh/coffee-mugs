@@ -16,7 +16,7 @@ function Story() {
           Even the all-powerful Pointing has
           <span className="block font-Karla">no control about the blind texts.</span> 
         </div>
-        <div className="text-slate-600">
+        <div className="text-gray-500 leading-7 mb-6">
           It is a paradisematic country, in which roasted parts of sentences fly
           into your mouth. Even the all-powerful Pointing has no control about
           the blind texts it is an almost unorthographic life One day however a
@@ -29,10 +29,13 @@ function Story() {
             className="my-8 cursor-pointer inline-block text-light-coffee opacity-50 hover:opacity-95 border-b-2 border-0 border-solid border-light-coffee"
             onClick={handleFullContent}
           >
-            Read the full story
+            <a className="no-underline">
+               Read the full story
+            </a>
+           
           </div>
 
-          <div id="full-story" className="hidden text-slate-600">
+          <div id="full-story" className="hidden text-gray-500 leading-7 mb-6">
             It is a paradisematic country, in which roasted parts of sentences
             fly into your mouth. Even the all-powerful Pointing has no control
             about the blind texts it is an almost unorthographic life One day

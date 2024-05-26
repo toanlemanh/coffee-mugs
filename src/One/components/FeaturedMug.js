@@ -2,12 +2,12 @@ function FeaturedMug() {
   return (
     <div className="flex flex-col mt-4 mb-7">
       <div
-        className="uppercase text-gray-400 text-center font-Karla text-sm
+        className="uppercase text-gray-400 text-center font-Karla text-sm text-[12px]
             "
       >
-        <span className="inline-block w-8 h-px bg-gray-200 my-1"></span>{" "}
+        <span className="my-label-line"></span>{" "}
         Featured Mugs{" "}
-        <span className="inline-block w-8 h-px bg-gray-200 my-1"></span>
+        <span className="my-label-line"></span>
       </div>
       <div className="flex max-md:flex-col max-md:mx-20 md:justify-center md:mx-auto gap-x-10 gap-y-10 py-10">
         <div>
